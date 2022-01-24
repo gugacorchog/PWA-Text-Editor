@@ -12,7 +12,7 @@
 #### I WANT to create notes or code snippets with or without an internet connection
 #### SO THAT I can reliably retrieve them for later use
 
-
+##
 ## Acceptance Criteria
 
 ```md
@@ -42,21 +42,25 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
-    
+##    
+### URL 
 
+[Heroku](https://text-editor-vas.herokuapp.com/)
+
+##
 ## Table of Contents 
 
 - [Installation](#installation)
 - [Technologies](#Technologies)
 - [Question](#question) 
  
-
+##
 ## Installation
 
 #### Npm i
 #### Npm start
 
-
+##
 ## Technologies
 
 #### "Dependencies" 
@@ -66,7 +70,7 @@ THEN I should have proper build scripts for a webpack application
 ##### nodemon": "^2.0.4"
 
 
-
+##
 ## Question
 Questions? Let me know:  
 
