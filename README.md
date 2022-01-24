@@ -6,7 +6,7 @@
 ![Size](https://img.shields.io/github/repo-size/gugacorchog/PWA-Text-Editor?color=red)
 
 
-## Description 
+## Description
 
 #### AS A developer
 #### I WANT to create notes or code snippets with or without an internet connection
@@ -43,11 +43,6 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
     
-### Demo
-
-### Users Demo
-
-
 
 ## Table of Contents 
 
