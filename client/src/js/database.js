@@ -19,7 +19,7 @@ const initdb = async () =>
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
-  const request = store.put({id, content: content });
+  const request = store.put({id:1, value: content});
   const result = await request;
   console.error('putDb not implemented');
 
@@ -32,7 +32,7 @@ const initdb = async () =>
   const store = tx.objectStore('jate');  
   const request = store.getAll();
   const result = await request;
-  return result;
+  return result?.value;
 
 };
 
