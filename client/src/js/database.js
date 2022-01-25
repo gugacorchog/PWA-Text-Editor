@@ -21,8 +21,6 @@ const initdb = async () =>
   const store = tx.objectStore('jate');
   const request = store.put({id:1, value: content});
   const result = await request;
-  console.error('putDb not implemented');
-
 };
 
 // TODO: Add logic for a method that gets all the content from the database
